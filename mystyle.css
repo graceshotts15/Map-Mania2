@@ -1,0 +1,17 @@
+h1{
+  color: #000000;
+  font-style:italic;
+  font-size: 4em;
+  font-family:serif;
+  }
+
+p{
+  font-family: arial;
+  font-size: 3em;
+  color: #000000;
+}
+
+
+body {
+background-color: #00ccff;
+}

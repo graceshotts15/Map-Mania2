@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania Lite</title>
+        <script src="mm-javascript.js"></script>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body onload="initApplication()">
+        <h1>Places I Have Traveled Too</h1>  
+        <p>To get started, click <a href= "second-page.html" > here.</a></p>      
+        <select name="Hint" id="Hint">
+            <option value="Hints">Select Your Hint</option>
+            <option value="1">Hint 1: The closest B town to Lewis University. </option>
+            <option value="2">Hint 2: The 4th biggest city in Oklahoma.</option>
+            <option value="3">Hint 3: Disney Land. </option>
+            <option value="4">Hint 4: A small beach located on the east coast, (close to South Carolina).</option>
+            <option value="5">Hint 5: The capitol of Arkansas. </option>
+            <option value="6">Hint 6: The biggest city in Illinois.</option>
+            <option value="7">Hint 7: Free Answer! Merrillville, Indiana.</option>
+            <option value="8">Hint 8: The state above Illinois, location has water. </option>
+            <option value="9">Hint 9: A beach in Florida. (Starts with a P)</option>
+            <option value="10">Hint 10: A beach in Florida. (Starts with a C) </option>
+          </select>
+
+        Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
+        Enter Your Guess Here: <input id="guess-id" type="text" value="" size="100"><button onclick="Guess()" >Submit</button><br><br>
+        
+
+    
+
+        <div id="myMapID"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAM2XBM2OTCmFZab9zLBj2F_ILrPYyKznk&callback=initMap"
+            async defer>
+        </script>
+
+
+
+        
+
+    </body>
+</html>
